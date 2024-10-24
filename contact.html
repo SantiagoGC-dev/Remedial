@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-globe"></i> TI31BIS DSM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="fa-solid fa-circle-info"></i> About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html"><i class="fa-solid fa-gear"></i> My hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+
+    <main class="main-container-form">
+        <section class="section-form">
+            <!-- Start of form -->
+            <form action="#" method="post">
+                <!-- Text field for the name-->
+            <div class="mb-3">
+                <label for="name" class="form-label "> Name(s): </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Write your name"
+                  required
+                />
+              </div>
+
+              <!-- Text field for the surname-->
+            <div class="mb-3">
+                <label for="surname" class="form-label"> Surname(s): </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="surname"
+                  name="surname"
+                  placeholder="Write your surname"
+                  required
+                />
+              </div>
+
+              <!-- Email field -->
+            <div class="mb-3">
+                <label for="email" class="form-label"> Email: </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emal"
+                  name="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </div>
+
+            <!-- Phone field -->
+            <div class="mb-3">
+
+                <label for="phone" class="form-label">Phone:</label>
+                <input type="tel" 
+                class="form-control" 
+                id="phone" 
+                name="phone" 
+                pattern="[0-9]{9}">
+               </div>
+  
+              </div>
+
+              <!-- Subject field -->
+              <div class="mb-3">
+                <label for="name" class="form-label"> Subject: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  name="subject"
+                  placeholder="Write your subject"
+                  required
+                />
+              </div>
+              
+              <!-- Text area -->
+             <div class="mb-3">
+                <label for="comments" class="form-label"> Comments: </label>
+                <textarea 
+                class="form-control" 
+                name="comments" 
+                id="comments" 
+                rows="4" placeholder="Write here"></textarea>   
+               </div>
+
+               <button type="submit" class="buttons"> Submit </button>
+
+            </form>
+
+        </section>
+
+        <section class="section-map">
+
+            <div class="mb-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7525.091950929104!2d-99.22272325743768!3d19.43201347738876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20220d8ff1ab7%3A0x102ad93badd15576!2sReforma%20Soc%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1729730996214!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            <h2>Contact information</h2>
+            <div class="contact-info">
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    C. 4 14, Reforma Soc, Miguel Hidalgo, 11650 Ciudad de México, CDMX
+                </p>
+                <p> 
+                    <i class="fa-solid fa-phone"></i>
+                    +52 (55) 2110 5157 
+                </p>
+                <p> 
+                    <i class="fa-solid fa-envelope"></i>
+                    info@utrivieramaya.edu.mx
+                </p>
+                <p> 
+                    <i class="fa-solid fa-clock"></i>
+                    Monday to Friday 8:00 AM - 5:00 PM 
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    
+
+
+    <footer class="footer mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>About me</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam iure laboriosam perferendis aliquam porro vitae dolores hic blanditiis inventore corrupti molestiae, eaque quo praesentium voluptatum veritatis quidem provident ipsum?</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="hobbies.html">My hobbies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow me</h5>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>&copy; <span id="year"></span> Developed by David Santiago Gutierrez Calderon | TI31BIS DSM. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
